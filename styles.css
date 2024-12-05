@@ -1,8 +1,15 @@
-body {
-    background: saddlebrown;     /* red, blue, yellow, etc */
-    color: white;             /* red, blue, yellow, etc */
-    font-size: 25px;        /* 0px - 100px and beyond */
-    font-weight: bold;   /* lighter, normal, bold  */
-    text-align: center;      /* left, center or right  */ 
-    margin-top: 40px;        /* From 0px and upwards   */
+.main {
+    margin-top: 100px;
+}
+
+/* Challenge - part 2: 
+Replace the element selectors with class selectors */
+.logo-img {
+    display: block;
+    width: 300px;
+}
+
+.search-input {
+    display: block;
+    width: 400px;
 }
