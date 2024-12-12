@@ -47,3 +47,17 @@ Center the logo and the search field.
     border-radius: 4px;
     font-size: 14px;
 }
+
+.work {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.profile {
+    margin-right: 30px;
+}
+
+.contents {
+    margin-left: 30px;
+}
