@@ -38,7 +38,7 @@ Center the logo and the search field.
 }
 
 .work {
-    font-family: Arial, Helvetica, sans-serif; 
+    
     width: 1000px;
     display: flex;
     justify-content: space-between;
