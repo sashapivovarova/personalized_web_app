@@ -1,11 +1,14 @@
 body {
+  margin: 0;
   color: #82a5ca;
-  background-size: cover;
-  background-image: url("src/assets/space.webp");
   text-align: center;
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800
+  font-family: 'Orbitron', sans-serif;
+}
+
+#hero {
+  background-image: url("src/assets/space.webp");
+  background-size: cover;
+  padding: 200px 0;
 }
 
 .btn {
