@@ -38,16 +38,16 @@ Center the logo and the search field.
 }
 
 .work {
-    
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #ddebf8;
-    color: #2b2839;
-    border-bottom: 6px solid #d8cefe;
+    letter-spacing: 4px;
+    background: #b7111b;
+    color: #fafbf4;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+#netflix {
+    font-size: 80px;
+    text-shadow: 5px -5px 5px black;
 }
 
 .profile {
