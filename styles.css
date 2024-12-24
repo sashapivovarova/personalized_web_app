@@ -32,8 +32,6 @@
     font-size: 14px;
 }
 
-
-
 .work {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
@@ -46,6 +44,17 @@
     width: 150px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+h2, h4 {
+    background: #EFB0C9;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #netflix {
