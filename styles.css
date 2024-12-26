@@ -44,23 +44,17 @@ h1, h2, h3, h4, p {
 
 #bff-img {
     width: 150px;
-    border: 6px solid #EFB0C9;
-    border-radius: 10px;
     margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #EFB0C9;
     padding: 5px 10px;
-    border-radius: 5px;
     margin: 5px 0 10px 0;
 }
 
 #bday-date {
     margin: 0;
-    background: #EFB0C9;
     padding: 5px 10px;
-    border-radius: 5px;
 }
 
 #header {
@@ -68,7 +62,6 @@ h1, h2, h3, h4, p {
     flex-direction: column;
     align-items: center;
 }
-
 
 .gift-section {
     margin-top: 50px;
@@ -83,9 +76,11 @@ h1, h2, h3, h4, p {
 }
 
 .gift-img {
-    width: 200px;
-    border: 6px solid white;
-    border-radius: 10px;
+    margin: 0 auto;
+    width: 450px;
+    height: 400px;
+    background-image: url("src/assets/react.svg");
+    background-size: cover;
 }
 
 #netflix {
