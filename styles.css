@@ -83,6 +83,10 @@ h1, h2, h3, h4, p {
     background-size: cover;
 }
 
+.gift-img:hover {
+    background-image: url("src/assets/bday.webp");
+}
+
 #netflix {
     font-size: 80px;
     text-shadow: 5px -5px 5px black;
