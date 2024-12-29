@@ -92,6 +92,10 @@ p {
     background-image: url("src/assets/bday.webp");
 }
 
+#gift-img-hot {
+    height: 200px;
+}
+
 #gift-img-hot:hover {
     background-image: url("src/assets/hot.webp");
 }
