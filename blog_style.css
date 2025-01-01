@@ -17,14 +17,44 @@ h1 {
 
 .btn {
   padding: 6px 12px;
-    background: white;
-    border: none;
-    font-family: inherit;
-    font-weight: bold;
-    color: #82a5ca;
+  background: white;
+  border: none;
+  font-family: inherit;
+  font-weight: bold;
+  color: #82a5ca;
 }
 
 .ctn {
   border-bottom: 5px solid white;
   padding-bottom: 2px;
+}
+
+caption {
+  margin-bottom: 14px;
+  font-size: 30px;
+
+}
+
+th {
+  background-color: #374d7c;
+  color: #fff;
+}
+
+table {
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+td {
+  background-color: #fdf289;
+}
+
+td,
+th {
+  padding: 10px 20px;
+}
+
+tfoot td {
+  background-color: #46edc8;
+  text-align: center;
 }
