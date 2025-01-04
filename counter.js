@@ -4,10 +4,14 @@ let count = 0
 
 console.log(count)
 
+let bonusPoints = 50
+console.log(bonusPoints)
 
-// 1. Create a variable, myAge, and set its value to your age
+bonusPoints = bonusPoints + 50
+console.log(bonusPoints)
 
-// 2. Log the myAge variable to the console
+bonusPoints = bonusPoints - 75
+console.log(bonusPoints)
 
-var myAge = 21
-console.log(myAge)
+bonusPoints = bonusPoints + 45
+console.log(bonusPoints)
