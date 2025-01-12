@@ -35,3 +35,12 @@ button {
 #save-btn {
   background: darkgreen;
 }
+
+#error-btn {
+  background: darkblue;
+}
+
+#error {
+  color: red;
+  font-weight: 200;
+}
