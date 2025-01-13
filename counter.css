@@ -40,6 +40,10 @@ button {
   background: darkblue;
 }
 
+#cal-btn {
+  background: darkorange;
+}
+
 #error {
   color: red;
   font-weight: 200;
