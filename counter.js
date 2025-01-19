@@ -5,8 +5,9 @@ let hasBlackJack = false
 let isAlive = true
 let message = ""
 
-// 2. Create a startGame() function. Move the conditional
-// below (line 11-20) inside the body of the function.
+// 1. Store the message-el paragraph in a variable called messageEl
+let messageEl = document.getElementById("message-el")
+console.log(messageEl)
 
 function startGame() {
   if (sum <= 20) {
@@ -18,5 +19,6 @@ function startGame() {
     message = "You're out of the game!"
     isAlive = false
   }
-  console.log(message)
+  // 2. Display the message in the messageEl using messageEl.textContent
+  messageEl.textContent = message
 }
