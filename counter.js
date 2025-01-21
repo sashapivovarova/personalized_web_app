@@ -7,7 +7,8 @@ let message = ""
 
 // 1. Store the message-el paragraph in a variable called messageEl
 let messageEl = document.getElementById("message-el")
-let sumEl = document.getElementById("sum-el")
+// let sumEl = document.getElementById("sum-el")
+let sumEl = document.querySelector("#sum-el")
 
 function startGame() {
   // 3. Render the sum on the page using this format -> "Sum: 14"
