@@ -10,6 +10,9 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
 function startGame() {
+  renderGame()
+}
+function renderGame() {
   // 3. Render the cars on the page using this format -> "Cards: 10 4"
   cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
   sumEl.textContent = "Sum: " + sum
@@ -29,5 +32,5 @@ function newCard() {
   console.log("Drawing a new card from the deck!")
   let card = 6
   sum += card
-  startGame()
+  renderGame()
 }
