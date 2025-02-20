@@ -5,11 +5,12 @@ const ulEl = document.getElementById("ul-el")
 
 inputBtn.addEventListener("click", function () {
   myLeads.push(inputEl.value)
-  renderLead()
+  // renderLead()
+  ulEl.innerHTML += "<li>" + inputEl.value + "</li>"
   inputEl.value = ""
 })
 
-function renderLead() {
-  let listItem = "<li>" + inputEl.value + "</li>"
-  ulEl.innerHTML += listItem
-}
+// function renderLead() {
+//   let listItem = "<li>" + inputEl.value + "</li>"
+//   ulEl.innerHTML += listItem
+// }
